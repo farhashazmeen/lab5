@@ -1,0 +1,19 @@
+Package: lab5
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2017-10-01
+Authors@R: c(
+    person("Farhana", "Chowdhury Tondra", email = "farch587@student.liu.se", role = "cre"),
+    person("Syeda", "Farha Shazmeen", email = "syesh076@student.liu.se", role = "aut"))
+Maintainer: Farha Shazmeen <syesh076@student.liu.se>
+Description: to find the functions for lab4.
+License: CC0
+Encoding: UTF-8
+RoxygenNote: 6.0.1.9000
+LazyData: true
+Suggests: testthat,
+    knitr,
+    rmarkdown
+Depends: R (>= 2.10)
+VignetteBuilder: knitr
