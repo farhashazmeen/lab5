@@ -32,7 +32,7 @@ http://r-pkgs.had.co.nz/vignettes.html#markdown.
 }
 \examples{
 geo_connect("Delhi")
-geo_connect_vector(c("40.41678, -3.70379", " Linkoping"))
+
 }
 
 

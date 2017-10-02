@@ -19,11 +19,11 @@ geo_connect <- function(address){
   
   # Call the function URLencode to build a URL string
   
-  URL <- URLencode(paste("http://maps.google.com/maps/api/geocode/json?address=", address, sep=""))
+  URL <- utils::URLencode(paste("http://maps.google.com/maps/api/geocode/json?address=", address, sep=""))
   
   # Request information from the API   and Parse the JSON
   
-  URL.data <- fromJSON(getURL(URL))
+  URL.data <- rjson::fromJSON(RCurl::getURL(URL))
   
   # Check the response status from the API
   

@@ -5,7 +5,7 @@ library(testthat)
 
 # testing the inputs and outputs of our functions
 expect_true(is.data.frame(geo_connect("Madrid")))
-expect_true(is.data.frame(geo_connect_vector(c("Madrid", "Linkoping"))))
+
 
 
 # geo_connect()
