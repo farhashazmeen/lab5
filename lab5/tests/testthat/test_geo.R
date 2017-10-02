@@ -1,7 +1,7 @@
 # testing 
 
 library(testthat)
-library(ggmap)
+
 
 # testing the inputs and outputs of our functions
 expect_true(is.data.frame(geo_connect("Madrid")))

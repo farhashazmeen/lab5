@@ -6,8 +6,7 @@
 #
 
 library(shiny)
-library(leaflet)
-library(ggplot2)
+
 
 server <- function(input, output, session) {
   

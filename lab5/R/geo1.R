@@ -1,4 +1,5 @@
 
+
 # This function queries Google's geocoding API
 
 #' Title
@@ -9,10 +10,12 @@
 #' @export
 #'
 #' @examples geo_connect("delhi")
+
 geo_connect <- function(address){
-  
   library(RCurl)
   library(rjson)
+  
+
   
   # Call the function URLencode to build a URL string
   
@@ -47,6 +50,6 @@ geo_connect <- function(address){
 
      return(address.data)
 }
-#geo_connect("27.17502, 78.04216")
-geo_connect("linkoping")
+# geo_connect("27.17502, 78.04216")
+# geo_connect("linkoping")
 
