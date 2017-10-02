@@ -14,6 +14,9 @@ RoxygenNote: 6.0.1.9000
 LazyData: true
 Suggests: testthat,
     knitr,
-    rmarkdown
+    rmarkdown,
+    shiny
 Depends: R (>= 2.10)
 VignetteBuilder: knitr
+
+
