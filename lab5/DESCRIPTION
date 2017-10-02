@@ -7,7 +7,7 @@ Authors@R: c(
     person("Farhana", "Chowdhury Tondra", email = "farch587@student.liu.se", role = "cre"),
     person("Syeda", "Farha Shazmeen", email = "syesh076@student.liu.se", role = "aut"))
 Maintainer: Farha Shazmeen <syesh076@student.liu.se>
-Description: to find the functions for lab4.
+Description: to find the functions for geo_connect.
 License: CC0
 Encoding: UTF-8
 RoxygenNote: 6.0.1.9000

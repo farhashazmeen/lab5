@@ -1,10 +1,8 @@
-
-
-# This function queries Google's geocoding API
-
-#' Title
+#' Google's geocoding API
 #'
-#' @param address 
+#' This funcion returns the coordinates of API.
+#'
+#' @param address It takes the address of location.
 #'
 #' @return A data.frame containing the resulting \code{longitude/s}, \code{latitude/s} and \code{address/es}
 #' @export

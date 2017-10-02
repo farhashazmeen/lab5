@@ -2,18 +2,18 @@
 % Please edit documentation in R/geo1.R
 \name{geo_connect}
 \alias{geo_connect}
-\title{Title}
+\title{Google's geocoding API}
 \usage{
 geo_connect(address)
 }
 \arguments{
-\item{address}{}
+\item{address}{It takes the address of location.}
 }
 \value{
 A data.frame containing the resulting \code{longitude/s}, \code{latitude/s} and \code{address/es}
 }
 \description{
-Title
+This funcion returns the coordinates of API.
 }
 \examples{
 geo_connect("delhi")

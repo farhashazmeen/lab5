@@ -11,9 +11,10 @@
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{lab4new}
-\packageIndices{lab4new}
-This Package contains th implementation of google geocode API. Geocoding takes an address and return a coordinate in space. This coordinate, along with other coordinates, can then be meaningfully used and analysed. The coordinate system are longitude (x) and latitude (y) coordinates expressed in decimal degrees and formated address. 
+\packageDESCRIPTION{lab5}
+\packageIndices{lab5}
+This Package contains th implementation of google geocode API.
+Geocoding takes an address and return a coordinate in space.
 }
 \author{ packageAuthor {Syeda Farha Shazmeen}
 
